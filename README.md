@@ -96,6 +96,11 @@ flavorizr:
         icon: "path_to_dev_icon.png"
         firebase:
           config: "path_to_dev_firebase_config.json"
+      macos:
+        bundleId: "com.myapp.dev"
+        icon: "path_to_dev_icon.png"
+        firebase:
+          config: "path_to_dev_firebase_config.json"
 
 # Config only different bundle id for prod environment  
 prod:
