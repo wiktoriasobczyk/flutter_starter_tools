@@ -58,6 +58,7 @@ flutter:
 
 
 flavorizr:
+  ide: "vscode"
   flavors:
     dev:
       app:
@@ -67,9 +68,6 @@ flavorizr:
         applicationId: "com.flutter.friends.dev"
         icon: "assets/icons/icon_dev.png"
       ios:
-        bundleId: "com.flutter.friends.dev"
-        icon: "assets/icons/icon_dev.png"
-      macos:
         bundleId: "com.flutter.friends.dev"
         icon: "assets/icons/icon_dev.png"
 
@@ -83,9 +81,6 @@ flavorizr:
       ios:
         bundleId: "com.flutter.friends.uat"
         icon: "assets/icons/icon_uat.png"
-      macos:
-        bundleId: "com.flutter.friends.uat"
-        icon: "assets/icons/icon_uat.png"
 
     prod:
       app:
@@ -95,8 +90,5 @@ flavorizr:
         applicationId: "com.flutter.friends.prod"
         icon: "assets/icons/icon_prod.png"
       ios:
-        bundleId: "com.flutter.friends.prod"
-        icon: "assets/icons/icon_prod.png"
-      macos:
         bundleId: "com.flutter.friends.prod"
         icon: "assets/icons/icon_prod.png"
