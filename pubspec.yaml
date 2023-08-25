@@ -55,3 +55,33 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+flavorizr:
+  flavors:
+    dev:
+      app:
+        name: "Flutter&Friends DEV"
+
+      android:
+        applicationId: "com.flutter.friends.dev"
+      ios:
+        bundleId: "com.flutter.friends.dev"
+
+    uat:
+      app:
+        name: "Flutter&Friends UAT"
+
+      android:
+        applicationId: "com.flutter.friends.uat"
+      ios:
+        bundleId: "com.flutter.friends.uat"
+
+    prod:
+      app:
+        name: "Flutter&Friends PROD"
+
+      android:
+        applicationId: "com.flutter.friends.prod"
+      ios:
+        bundleId: "com.flutter.friends.prod"
