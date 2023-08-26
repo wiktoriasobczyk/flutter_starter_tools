@@ -18,7 +18,7 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
+  flutter_flavorizr: ^2.2.1
   flutter_lints: ^2.0.0
 
 flutter:
@@ -55,3 +55,40 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+
+flavorizr:
+  ide: "vscode"
+  flavors:
+    dev:
+      app:
+        name: "Flutter&Friends DEV"
+
+      android:
+        applicationId: "com.flutter.friends.dev"
+        icon: "assets/icons/icon_dev.png"
+      ios:
+        bundleId: "com.flutter.friends.dev"
+        icon: "assets/icons/icon_dev.png"
+
+    uat:
+      app:
+        name: "Flutter&Friends UAT"
+
+      android:
+        applicationId: "com.flutter.friends.uat"
+        icon: "assets/icons/icon_uat.png"
+      ios:
+        bundleId: "com.flutter.friends.uat"
+        icon: "assets/icons/icon_uat.png"
+
+    prod:
+      app:
+        name: "Flutter&Friends PROD"
+
+      android:
+        applicationId: "com.flutter.friends.prod"
+        icon: "assets/icons/icon_prod.png"
+      ios:
+        bundleId: "com.flutter.friends.prod"
+        icon: "assets/icons/icon_prod.png"
