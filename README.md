@@ -102,7 +102,7 @@ flavorizr:
         firebase:
           config: "path_to_dev_firebase_config.json"
 
-# Config only different bundle id for prod environment  
+# Simple config bundle id for prod environment  
 prod:
       app:
         name: "My App Prod"
